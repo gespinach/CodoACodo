@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#menu{
+    font-size: 0.8rem;
+}
+
+
+
+#sombra{
+    position:absolute;
+    top:0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 50%;
+    min-height: 95vh;
+    max-height: 95vh;
+
+}
+
+#textoImagen{
+    position:absolute;
+    right: 15vw;
+    color: whitesmoke;
+    opacity: 100%;
+    text-align: center;
+    font-size: 0.8rem;
+    bottom: 10%;
+}
+@media (min-width: 768px) {
+    #textoImagen{
+    right: 12vw;
+    }
+    #barraNav{
+        padding-right: 15vh !important;
+    }
+}
+
+  #botonComprar{
+    background-color: rgb(60, 158, 60);
+    padding: 0.65rem;
+}
+
+#botonOradores{
+    padding: 0.65rem;
+}
+
+.carousel-item {
+    min-height: 95vh;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+  }
+
+#ba1{
+    background-image: url("imagenes/ba1.jpg");
+}
+
+#ba2{
+    background-image: url("imagenes/ba2.jpg");
+}
+
+#ba3{
+    background-image: url("imagenes/ba3.jpg");
+}
+
+.navbar-toggler-icon {
+    background-image: url("imagenes/menuBlanco.png");
+}
+
+#honolulu{
+    background-image: url("imagenes/honolulu.jpg");
+    background-position: center center;
+    background-size: cover;
+    min-height: 50vh;
+    min-width: 50%;
+}
+
+#textoHonolulu{
+    color: whitesmoke;
+}
+
+.subrayado{
+    text-decoration: dotted underline;
+    
+}
+
+.colorVerde{
+   background-color: #97c93e !important; 
+}
+
+#menuFooter{
+    background-color: #1c3948;
+}
+
+#itemsMenuFooter{
+    list-style: none;
+    font-size: 0.8rem;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+#itemsMenuFooter div {
+    max-width: 10%;
+}
+}
+
+@media (min-width: 992px) {
+    #menu {
+       font-size: 1rem;
+    }
+    }
