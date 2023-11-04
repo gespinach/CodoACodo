@@ -55,23 +55,23 @@
   }
 
 #ba1{
-    background-image: url("imagenes/ba1.jpg");
+    background-image: url("../imagenes/ba1.jpg");
 }
 
 #ba2{
-    background-image: url("imagenes/ba2.jpg");
+    background-image: url("../imagenes/ba2.jpg");
 }
 
 #ba3{
-    background-image: url("imagenes/ba3.jpg");
+    background-image: url("../imagenes/ba3.jpg");
 }
 
 .navbar-toggler-icon {
-    background-image: url("imagenes/menuBlanco.png");
+    background-image: url("../imagenes/menuBlanco.png");
 }
 
 #honolulu{
-    background-image: url("imagenes/honolulu.jpg");
+    background-image: url("../imagenes/honolulu.jpg");
     background-position: center center;
     background-size: cover;
     min-height: 50vh;
@@ -111,4 +111,8 @@
     #menu {
        font-size: 1rem;
     }
+    }
+
+    #idMensaje {
+        font-size: 0.7 rem;
     }

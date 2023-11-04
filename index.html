@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="bs.css">
+  <link rel="stylesheet" href="/estilos/style.css">
+  <link rel="stylesheet" href="/estilos/bs.css">
 </head>
 
 <body>
@@ -16,10 +16,10 @@
     <div class="w-100">
       <nav class="navbar navbar-dark bg-dark  navbar-expand-md pe-4" id="barraNav">
         <div class="d-flex justify-content-start align-items-center">
-          <a class="text-white navbar-brand m-0" href="#" id="barraLetrasBlancas">
+          <a class="text-white navbar-brand m-0" href="index.html" id="barraLetrasBlancas">
             <img src="imagenes/codoacodo.png" alt="" width="90px" height="45px" class="d-inline-block">
           </a>
-          <a class="d-inline-block text-decoration-none text-white text-start" href="#">Conf Bs As</a>
+          <a class="d-inline-block text-decoration-none text-white text-start" href="index.html">Conf Bs As</a>
         </div>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
           <span class="navbar-toggler-icon"></span>
@@ -29,19 +29,19 @@
         <div id="menu" class="collapse navbar-collapse justify-content-end">
           <ul class="navbar-nav ms-3">
             <li class="nav-item">
-              <a class="nav-link text-white" aria-current="page" href="#">La conferencia</a>
+              <a class="nav-link text-white" aria-current="page" href="#menu">La conferencia</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white-50" href="#">Los oradores</a>
+              <a class="nav-link text-white-50" href="#oradores">Los oradores</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white-50" href="#">El lugar y la fecha</a>
+              <a class="nav-link text-white-50" href="#lugar">El lugar y la fecha</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white-50">Conviértete en orador</a>
+              <a class="nav-link text-white-50" href="#quieroSerOrador">Conviértete en orador</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-success">Comprar tickets</a>
+              <a class="nav-link text-success" href="/paginas/compraTckets.html" >Comprar tickets</a>
             </li>
           </ul>
         </div>
@@ -87,7 +87,7 @@
       </div>
     </div>
     </div>
-    <div class="conteiner mt-4">
+    <div class="conteiner mt-4" id="oradores">
       <p class="container-fluid text-center fs-6 mb-0">CONOCE A LOS</p>
       <p class="container-fluid text-center h1">ORADORES</p>
     </div>
@@ -135,7 +135,7 @@
 
 
 
-    <div class="container-fluid d-flex p-0 mt-4 flex-wrap">
+    <div class="container-fluid d-flex p-0 mt-4 flex-wrap" id="lugar">
       <div class="container-fluid border-end border-1 border-info col-12 col-md-6" id="honolulu">
 
       </div>
@@ -162,7 +162,7 @@
 
 
 
-      <div class="container flex-wrap">
+      <div class="container flex-wrap" id="quieroSerOrador">
         <form action="">
           <div class="d-flex flex-wrap">
             <div class="col-12 col-md-6 pe-md-1">
